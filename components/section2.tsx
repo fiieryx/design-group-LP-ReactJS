@@ -17,7 +17,7 @@ const Header2 = styled.h2`
 const section2: React.FC = () => {
   return (
     <section className="py-10 px-5">
-      <div className="grid  md:grid-flow-col auto-cols-fr p-10 shadow-[0_15px_20px_rgba(0,0,0,0.4)] gap-16 md:gap-20 text-2xl max-w-6xl font-bold m-auto bg-slate-200 rounded-3xl">
+      <div className="grid md:grid-flow-col auto-cols-fr p-8 shadow-[0_15px_20px_rgba(0,0,0,0.4)] gap-16 md:gap-20 text-2xl max-w-6xl font-bold m-auto bg-slate-200 rounded-2xl">
         <Minisections>
           <BsFillLightbulbFill className=" text-5xl" />
           <h1>Exclusividade</h1>

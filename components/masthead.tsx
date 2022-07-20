@@ -20,7 +20,7 @@ const Masthead: React.FC = () => {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center sticky top-0 -z-10 text-white"
+      className=" min-h-screen flex flex-col items-center justify-center sticky top-0 -z-10 text-white"
       ref={refContainer}
     >
       <video

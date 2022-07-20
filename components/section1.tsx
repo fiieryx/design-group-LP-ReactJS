@@ -58,7 +58,7 @@ const Section1: React.FC = () => {
             </motion.div>
 
             <motion.div variants={Animationitem}>
-              <button className="mt-10 text-lg bg-blue-700 p-3 px-7 rounded-xl hover:bg-blue-800 transition-all duration-200 font-bold">
+              <button className="mt-10 text-lg bg-blue-700 py-3 px-10 rounded-md hover:bg-blue-800 transition-all duration-200 font-bold">
                 Saiba Mais
               </button>
             </motion.div>

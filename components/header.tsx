@@ -42,7 +42,7 @@ const Header: React.FC = () => {
               <Link href={"#"}>Home</Link>
             </Itens>
             <Itens>
-              <Link href={"#"}>Sobre nós</Link>
+              <Link href={"#Section1"}>Sobre nós</Link>
             </Itens>
             <Itens>
               <Link href={"#"}>Nosso time</Link>
@@ -52,7 +52,6 @@ const Header: React.FC = () => {
                 className="px-6 py-2 font-bold rounded-md bg-blue-700 hover:bg-blue-800 transition-colors
             duration-300 tracking-tight inline-flex gap-2 items-center"
               >
-                {" "}
                 <MdMail /> Contato
               </button>
             </Link>
