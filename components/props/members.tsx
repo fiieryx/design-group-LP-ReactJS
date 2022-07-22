@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
 
 const Box = styled(motion.div)`
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   margin: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   border-width: 1px;
   background-color: rgba(131, 131, 131, 0.104);
   border-color: rgba(231, 231, 231, 0.199);
@@ -19,7 +19,7 @@ const Box = styled(motion.div)`
 interface Props {
   name: string;
   description: string;
-  image: string;
+  image: StaticImageData;
 }
 
 const Members: React.FC<Props> = ({ name, description, image }: Props) => {
@@ -37,7 +37,7 @@ const Members: React.FC<Props> = ({ name, description, image }: Props) => {
           className="object-contain "
         />
       </div>
-      <div className="flex z-10 flex-col text-center text-2xl font-bold w-full py-3 bg-slate-200">
+      <div className="flex z-10 flex-col text-center text-xl font-bold w-full py-3 bg-slate-200">
         <h1>{name}</h1>
         <h2 className="text-xl font-normal">{description}</h2>
       </div>

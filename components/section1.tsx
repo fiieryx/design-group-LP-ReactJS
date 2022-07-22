@@ -3,11 +3,19 @@ import Image from "next/image";
 import Members from "./props/members";
 import { motion } from "framer-motion";
 import { AnimationVariants, Animationitem } from "./props/AnimationIFR";
+import Daniel from "../public/img/daniel.png";
+import Sulista from "../public/img/sulista.jpeg";
+import Marcio from "../public/img/marcio.png";
+import Diego from "../public/img/diego.jpeg";
+import Augusto from "../public/img/augusto.jpeg";
 
 const Section1: React.FC = () => {
   return (
     <>
-      <section className=" flex flex-col bg-slate-800 py-10 pb-48">
+      <section
+        id="Section1"
+        className=" flex flex-col bg-slate-800 py-10 pb-48"
+      >
         <article className="flex flex-col lg:flex-row-reverse items-center mx-auto w-5/6 max-w-screen-2xl">
           <motion.div
             variants={Animationitem}
@@ -64,7 +72,10 @@ const Section1: React.FC = () => {
             </motion.div>
           </motion.div>
         </article>
-        <div className="pt-20 pb-10 flex flex-col text-4xl items-center font-bold text-white">
+        <div
+          id="Team"
+          className="pt-20 pb-10 flex flex-col text-4xl items-center font-bold text-white"
+        >
           <h1>Nosso Time</h1>
           <h1 className="font-normal text-3xl pt-3">Os melhores.</h1>
         </div>
@@ -83,28 +94,24 @@ const Section1: React.FC = () => {
           <Members
             name="Daniel Ribeiro"
             description="@daniboy"
-            image="/img/daniel.png"
+            image={Daniel}
           />
           <Members
             name="Antonio charutos"
             description="@sythed"
-            image="/img/sulista.jpeg"
+            image={Sulista}
           />
           <Members
             name="Márcio Gabriel"
             description="@marciogabrielsf"
-            image="/img/marcio.png"
+            image={Marcio}
           />
           <Members
             name="Augusto Dimiscosta"
             description="@augusto"
-            image="/img/augusto.jpeg"
+            image={Augusto}
           />
-          <Members
-            name="Diego"
-            description="@Vr4g404"
-            image="/img/diego2.jpeg"
-          />
+          <Members name="Diego" description="@Vr4g404" image={Diego} />
         </motion.div>
       </section>
       <div className="relative">

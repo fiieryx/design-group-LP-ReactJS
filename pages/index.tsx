@@ -5,6 +5,8 @@ import Header from "../components/header";
 import Section1 from "../components/section1";
 import Section2 from "../components/section2";
 import Principles from "../components/principles";
+import Joinus from "../components/joinus";
+import Footer from "../components/footer";
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +26,8 @@ const Home: NextPage = () => {
         <Section1 />
         <Section2 />
         <Principles />
+        <Joinus />
+        <Footer />
       </div>
     </>
   );

@@ -2,14 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Animationitem, AnimationVariants } from "./props/AnimationIFR";
 import Image from "next/image";
+import MockupCelular from "../public/img/Mockup1.png";
 
 const principles: React.FC = () => {
   return (
-    <section>
+    <section className="bg-white">
       <div className=" w-[80%] m-auto py-20">
         <div className="flex items-center justify-center flex-col md:flex-row ">
           <motion.div className="flex-1 sm:p-12 max-w-sm p-4">
-            <img src="img/Mockup1.png"></img>
+            <Image src={MockupCelular} alt="teste"></Image>
           </motion.div>
           <motion.div
             className="flex-1 max-w-2xl my-5 order-2"
