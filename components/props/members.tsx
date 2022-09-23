@@ -35,6 +35,8 @@ const Members: React.FC<Props> = ({ name, description, image }: Props) => {
           layout="fill"
           alt="Icone do Usuario"
           className="object-contain "
+          priority
+          placeholder="blur"
         />
       </div>
       <div className="flex z-10 flex-col text-center text-xl font-bold w-full py-3 bg-slate-200">

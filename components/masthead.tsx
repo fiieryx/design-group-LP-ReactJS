@@ -24,14 +24,7 @@ const Masthead: React.FC = () => {
       ref={refContainer}
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className={`absolute w-screen h-screen object-cover`}
-        src="/vid/bg.mp4"
-      />
+      <video autoPlay loop muted playsInline className={`absolute w-screen h-screen object-cover`} src="/vid/bg.mp4" />
       <div
         className={`p-12 pb-0 font-bold drop-shadow-[0_5px_3px_rgba(0,0,0,0.5)] text-center flex-1 flex items-center justify-center flex-col transition-all duration-1000 delay-300 ${imageLoaded ? "opacity-100" : "opacity-0 translate-y-10"
           }`}

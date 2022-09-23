@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Members from "./props/members";
 import { motion } from "framer-motion";
@@ -8,6 +7,7 @@ import Sulista from "../public/img/sulista.jpeg";
 import Marcio from "../public/img/marcio.png";
 import Diego from "../public/img/diego.jpeg";
 import Augusto from "../public/img/augusto.jpeg";
+import Huron from "../public/img/hurao.jpeg";
 
 const Section1: React.FC = () => {
   return (
@@ -96,6 +96,7 @@ const Section1: React.FC = () => {
           <Members name="Antonio charutos" description="@sythed" image={Sulista} />
           <Members name="Augusto Dimiscosta" description="@augusto" image={Augusto} />
           <Members name="Daniel Ribeiro" description="@daniboy" image={Daniel} />
+          <Members name="Joao huron" description="@huron" image={Huron} />
         </motion.div>
       </section>
       <div className="relative">
