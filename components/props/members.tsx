@@ -39,7 +39,7 @@ const Members: React.FC<Props> = ({ name, description, image }: Props) => {
           placeholder="blur"
         />
       </div>
-      <div className="flex z-10 flex-col text-center text-xl font-bold w-full py-3 bg-slate-200">
+      <div className="flex z-10 flex-col text-center text-xl font-bold w-full py-1 bg-slate-200">
         <h1>{name}</h1>
         <h2 className="text-xl font-normal">{description}</h2>
       </div>
