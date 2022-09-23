@@ -27,6 +27,7 @@ const Header: React.FC = () => {
           <span className="hover:scale-110 transition-all duration-200">
             <Link href={"/"}>
               <Image
+                priority={true}
                 width="50"
                 height="50"
                 src="/img/logo2.png"

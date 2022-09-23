@@ -10,7 +10,7 @@ const principles: React.FC = () => {
       <div className=" w-[80%] m-auto py-20">
         <div className="flex items-center justify-center flex-col md:flex-row ">
           <motion.div className="flex-1 sm:p-12 max-w-sm p-4">
-            <Image src={MockupCelular} alt="teste"></Image>
+            <Image src={MockupCelular} alt="teste" priority={true}></Image>
           </motion.div>
           <motion.div
             className="flex-1 max-w-2xl my-5 order-2"
