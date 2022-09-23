@@ -2,10 +2,17 @@ import { NextPage } from "next";
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Head from "next/head";
 
 const Privacy: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>Privacidade - Design Group</title>
+        <meta name="description" content="Políticas de Privacidade." />
+        <link rel="icon" href="img/logo2.png" />
+      </Head>
+
       <Header />
       <div className="bg-slate-900 min-h-screen text-white flex justify-center items-center">
         <div className="max-w-6xl py-40 px-10">

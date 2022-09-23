@@ -13,14 +13,13 @@ const Home: NextPage = () => {
     <>
       <div>
         <Head>
-          <title>Design Group - Home</title>
+          <title>Home - Design Group</title>
           <meta
             name="description"
             content="Está afim de potencializar seus lucros por meio da identidade da sua empresa? em poucos minutos, Junte-se aos nossos clientes empreendedores e venha dar uma cara nova para o seu negócio."
           />
           <link rel="icon" href="img/logo2.png" />
         </Head>
-
         <Header />
         <Masthead />
         <Section1 />

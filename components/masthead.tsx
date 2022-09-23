@@ -49,7 +49,7 @@ const Masthead: React.FC = () => {
         }`}
       >
         <h2>
-          <a href="#">[ vamos nessa! ]</a>
+          <a href="#Section1">[ vamos nessa! ]</a>
         </h2>
         <BsArrowDownShort className="text-3xl m-auto mt-2" />
       </div>

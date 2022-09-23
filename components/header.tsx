@@ -14,11 +14,9 @@ const Itens = styled.li`
 
 const Header: React.FC = () => {
   const [ImageLoaded, setImageloaded] = useState(false);
-
   useEffect(() => {
     setImageloaded(true);
   }, []);
-
   return (
     <header className="bg-gradient-to-b from-slate-400">
       <nav className="h-20 flex items-center -mb-20">

@@ -56,12 +56,12 @@ const Section1: React.FC = () => {
             >
               <p>
                 {" "}
-                Iniciado em 2017 na rede social Skype, 4 amigos Designers
+                Iniciado em 2017 na rede social Skype, 4 amigos designers
                 decidiram criar um grupo onde se reuniu{" "}
                 <strong>apenas os melhores.</strong> Desde 2018, nosso time de
                 designers já desenvolveu os <strong>melhores</strong> e{" "}
                 <strong>mais variados</strong> criativos para empresas{" "}
-                <strong>por todo o Brasil.</strong>
+                <strong>por todod o Brasil.</strong>
               </p>
             </motion.div>
 
@@ -91,27 +91,11 @@ const Section1: React.FC = () => {
           }}
           viewport={{ once: true }}
         >
-          <Members
-            name="Daniel Ribeiro"
-            description="@daniboy"
-            image={Daniel}
-          />
-          <Members
-            name="Antonio charutos"
-            description="@sythed"
-            image={Sulista}
-          />
-          <Members
-            name="Márcio Gabriel"
-            description="@marciogabrielsf"
-            image={Marcio}
-          />
-          <Members
-            name="Augusto Dimiscosta"
-            description="@augusto"
-            image={Augusto}
-          />
           <Members name="Diego" description="@Vr4g404" image={Diego} />
+          <Members name="Márcio Gabriel" description="@marciogabrielsf" image={Marcio} />
+          <Members name="Antonio charutos" description="@sythed" image={Sulista} />
+          <Members name="Augusto Dimiscosta" description="@augusto" image={Augusto} />
+          <Members name="Daniel Ribeiro" description="@daniboy" image={Daniel} />
         </motion.div>
       </section>
       <div className="relative">
